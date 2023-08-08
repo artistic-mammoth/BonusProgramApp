@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7D0447F2A82A98700D040BB /* UIImage+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0447E2A82A98700D040BB /* UIImage+ext.swift */; };
+		C7D044812A82ABEC00D040BB /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D044802A82ABEC00D040BB /* CodeView.swift */; };
+		C7D044832A82B48000D040BB /* CatalogLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D044822A82B48000D040BB /* CatalogLottie.swift */; };
+		C7D044852A82B5DE00D040BB /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D044842A82B5DE00D040BB /* UIView+ext.swift */; };
+		C7D36A862A82953200C82845 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C7D36A852A82953200C82845 /* Lottie */; };
+		C7D36A8C2A82956100C82845 /* Mixing Egg into Flour.json in Resources */ = {isa = PBXBuildFile; fileRef = C7D36A882A82956100C82845 /* Mixing Egg into Flour.json */; };
+		C7D36A8E2A82956100C82845 /* Fried Egg.json in Resources */ = {isa = PBXBuildFile; fileRef = C7D36A8A2A82956100C82845 /* Fried Egg.json */; };
+		C7D36A8F2A82956100C82845 /* Boiling Soup.json in Resources */ = {isa = PBXBuildFile; fileRef = C7D36A8B2A82956100C82845 /* Boiling Soup.json */; };
+		C7D36A922A8297E200C82845 /* CodePlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D36A912A8297E200C82845 /* CodePlaceholderView.swift */; };
 		C7E25D362A825B5100CC56F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D352A825B5100CC56F2 /* AppDelegate.swift */; };
 		C7E25D382A825B5100CC56F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D372A825B5100CC56F2 /* SceneDelegate.swift */; };
 		C7E25D3A2A825B5100CC56F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D392A825B5100CC56F2 /* ViewController.swift */; };
@@ -16,6 +25,11 @@
 		C7E25D4D2A825B5200CC56F2 /* BonusProgramAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D4C2A825B5200CC56F2 /* BonusProgramAppTests.swift */; };
 		C7E25D572A825B5200CC56F2 /* BonusProgramAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D562A825B5200CC56F2 /* BonusProgramAppUITests.swift */; };
 		C7E25D592A825B5200CC56F2 /* BonusProgramAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D582A825B5200CC56F2 /* BonusProgramAppUITestsLaunchTests.swift */; };
+		C7E25D6B2A82629C00CC56F2 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D6A2A82629C00CC56F2 /* CodeViewController.swift */; };
+		C7E25D6D2A826A1900CC56F2 /* API-Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E25D6C2A826A1900CC56F2 /* API-Keys.plist */; };
+		C7E25D702A826A6400CC56F2 /* CodeGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D6F2A826A6400CC56F2 /* CodeGeneratorService.swift */; };
+		C7E25D722A826F4800CC56F2 /* KeysAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D712A826F4800CC56F2 /* KeysAPIService.swift */; };
+		C7E25D742A82726F00CC56F2 /* RandomCodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E25D732A82726F00CC56F2 /* RandomCodeResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7D0447E2A82A98700D040BB /* UIImage+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ext.swift"; sourceTree = "<group>"; };
+		C7D044802A82ABEC00D040BB /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		C7D044822A82B48000D040BB /* CatalogLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogLottie.swift; sourceTree = "<group>"; };
+		C7D044842A82B5DE00D040BB /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		C7D36A882A82956100C82845 /* Mixing Egg into Flour.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Mixing Egg into Flour.json"; sourceTree = "<group>"; };
+		C7D36A8A2A82956100C82845 /* Fried Egg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Fried Egg.json"; sourceTree = "<group>"; };
+		C7D36A8B2A82956100C82845 /* Boiling Soup.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Boiling Soup.json"; sourceTree = "<group>"; };
+		C7D36A912A8297E200C82845 /* CodePlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePlaceholderView.swift; sourceTree = "<group>"; };
 		C7E25D322A825B5100CC56F2 /* BonusProgramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonusProgramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E25D352A825B5100CC56F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E25D372A825B5100CC56F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,11 @@
 		C7E25D522A825B5200CC56F2 /* BonusProgramAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonusProgramAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E25D562A825B5200CC56F2 /* BonusProgramAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgramAppUITests.swift; sourceTree = "<group>"; };
 		C7E25D582A825B5200CC56F2 /* BonusProgramAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusProgramAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7E25D6A2A82629C00CC56F2 /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		C7E25D6C2A826A1900CC56F2 /* API-Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "API-Keys.plist"; sourceTree = "<group>"; };
+		C7E25D6F2A826A6400CC56F2 /* CodeGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeGeneratorService.swift; sourceTree = "<group>"; };
+		C7E25D712A826F4800CC56F2 /* KeysAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysAPIService.swift; sourceTree = "<group>"; };
+		C7E25D732A82726F00CC56F2 /* RandomCodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCodeResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D36A862A82953200C82845 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +104,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7D0447D2A82A96B00D040BB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C7D044862A82B60900D040BB /* Extension */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C7D044862A82B60900D040BB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7D0447E2A82A98700D040BB /* UIImage+ext.swift */,
+				C7D044842A82B5DE00D040BB /* UIView+ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C7D044872A82BEBD00D040BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7E25D732A82726F00CC56F2 /* RandomCodeResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7D36A872A82954E00C82845 /* AnimationsLottie */ = {
+			isa = PBXGroup;
+			children = (
+				C7D36A8B2A82956100C82845 /* Boiling Soup.json */,
+				C7D36A8A2A82956100C82845 /* Fried Egg.json */,
+				C7D36A882A82956100C82845 /* Mixing Egg into Flour.json */,
+				C7D044822A82B48000D040BB /* CatalogLottie.swift */,
+			);
+			path = AnimationsLottie;
+			sourceTree = "<group>";
+		};
+		C7D36A902A8297A500C82845 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7D36A912A8297E200C82845 /* CodePlaceholderView.swift */,
+				C7D044802A82ABEC00D040BB /* CodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C7E25D292A825B5100CC56F2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +172,14 @@
 		C7E25D342A825B5100CC56F2 /* BonusProgramApp */ = {
 			isa = PBXGroup;
 			children = (
-				C7E25D352A825B5100CC56F2 /* AppDelegate.swift */,
-				C7E25D372A825B5100CC56F2 /* SceneDelegate.swift */,
-				C7E25D392A825B5100CC56F2 /* ViewController.swift */,
-				C7E25D3B2A825B5100CC56F2 /* Main.storyboard */,
-				C7E25D3E2A825B5200CC56F2 /* Assets.xcassets */,
-				C7E25D402A825B5200CC56F2 /* LaunchScreen.storyboard */,
-				C7E25D432A825B5200CC56F2 /* Info.plist */,
+				C7D044872A82BEBD00D040BB /* Models */,
+				C7D36A902A8297A500C82845 /* Views */,
+				C7E25D6E2A826A4700CC56F2 /* Services */,
+				C7E25D682A82621E00CC56F2 /* Storyboards */,
+				C7E25D672A82620D00CC56F2 /* Controllers */,
+				C7E25D652A8261E500CC56F2 /* App */,
+				C7D0447D2A82A96B00D040BB /* Library */,
+				C7E25D662A8261F300CC56F2 /* Resources */,
 			);
 			path = BonusProgramApp;
 			sourceTree = "<group>";
@@ -127,6 +201,53 @@
 			path = BonusProgramAppUITests;
 			sourceTree = "<group>";
 		};
+		C7E25D652A8261E500CC56F2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C7E25D352A825B5100CC56F2 /* AppDelegate.swift */,
+				C7E25D372A825B5100CC56F2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C7E25D662A8261F300CC56F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7D36A872A82954E00C82845 /* AnimationsLottie */,
+				C7E25D3E2A825B5200CC56F2 /* Assets.xcassets */,
+				C7E25D402A825B5200CC56F2 /* LaunchScreen.storyboard */,
+				C7E25D432A825B5200CC56F2 /* Info.plist */,
+				C7E25D6C2A826A1900CC56F2 /* API-Keys.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7E25D672A82620D00CC56F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7E25D392A825B5100CC56F2 /* ViewController.swift */,
+				C7E25D6A2A82629C00CC56F2 /* CodeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C7E25D682A82621E00CC56F2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C7E25D3B2A825B5100CC56F2 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C7E25D6E2A826A4700CC56F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C7E25D6F2A826A6400CC56F2 /* CodeGeneratorService.swift */,
+				C7E25D712A826F4800CC56F2 /* KeysAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +264,9 @@
 			dependencies = (
 			);
 			name = BonusProgramApp;
+			packageProductDependencies = (
+				C7D36A852A82953200C82845 /* Lottie */,
+			);
 			productName = BonusProgramApp;
 			productReference = C7E25D322A825B5100CC56F2 /* BonusProgramApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +339,9 @@
 				Base,
 			);
 			mainGroup = C7E25D292A825B5100CC56F2;
+			packageReferences = (
+				C7D36A842A82953200C82845 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = C7E25D332A825B5100CC56F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +360,11 @@
 			files = (
 				C7E25D422A825B5200CC56F2 /* LaunchScreen.storyboard in Resources */,
 				C7E25D3F2A825B5200CC56F2 /* Assets.xcassets in Resources */,
+				C7D36A8C2A82956100C82845 /* Mixing Egg into Flour.json in Resources */,
+				C7D36A8F2A82956100C82845 /* Boiling Soup.json in Resources */,
 				C7E25D3D2A825B5100CC56F2 /* Main.storyboard in Resources */,
+				C7E25D6D2A826A1900CC56F2 /* API-Keys.plist in Resources */,
+				C7D36A8E2A82956100C82845 /* Fried Egg.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +389,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D044852A82B5DE00D040BB /* UIView+ext.swift in Sources */,
+				C7D0447F2A82A98700D040BB /* UIImage+ext.swift in Sources */,
+				C7E25D722A826F4800CC56F2 /* KeysAPIService.swift in Sources */,
+				C7D044812A82ABEC00D040BB /* CodeView.swift in Sources */,
+				C7E25D702A826A6400CC56F2 /* CodeGeneratorService.swift in Sources */,
+				C7E25D742A82726F00CC56F2 /* RandomCodeResponse.swift in Sources */,
+				C7D36A922A8297E200C82845 /* CodePlaceholderView.swift in Sources */,
+				C7E25D6B2A82629C00CC56F2 /* CodeViewController.swift in Sources */,
+				C7D044832A82B48000D040BB /* CatalogLottie.swift in Sources */,
 				C7E25D3A2A825B5100CC56F2 /* ViewController.swift in Sources */,
 				C7E25D362A825B5100CC56F2 /* AppDelegate.swift in Sources */,
 				C7E25D382A825B5100CC56F2 /* SceneDelegate.swift in Sources */,
@@ -439,12 +579,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YV94F8SKGT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BonusProgramApp/Info.plist;
+				INFOPLIST_FILE = BonusProgramApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +592,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = space.redoctopus.BonusProgramApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,12 +610,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YV94F8SKGT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BonusProgramApp/Info.plist;
+				INFOPLIST_FILE = BonusProgramApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +623,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = space.redoctopus.BonusProgramApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -602,6 +748,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7D36A842A82953200C82845 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7D36A852A82953200C82845 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7D36A842A82953200C82845 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7E25D2A2A825B5100CC56F2 /* Project object */;
 }
